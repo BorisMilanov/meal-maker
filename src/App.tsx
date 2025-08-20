@@ -7,7 +7,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import "./index.css"
-
 export default function App(): JSX.Element {
     return (
         <Router>
@@ -16,6 +15,8 @@ export default function App(): JSX.Element {
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/meal">Meal</Link>
+
             </nav>
 
             {/* Page Routes */}
@@ -24,6 +25,7 @@ export default function App(): JSX.Element {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/meal" element={<InfoMealMobile/>}/>
                 </Routes>
             </div>
         </Router>
