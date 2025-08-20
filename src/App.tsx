@@ -1,6 +1,4 @@
-// import { useState } from 'react';
-// @ts-ignore
-//import InfoMeal from './services/InfoMeal.tsx'
+
 import InfoMealMobile from "./services/InfoMealMobile.tsx";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
