@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import "./index.css"
-export default function App(): JSX.Element {
+export default function App() {
     return (
         <Router>
             {/* Navigation */}
